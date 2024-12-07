@@ -9,8 +9,14 @@ int main()
   int sub = a - b;
   // printf("%d", a);
   // printf("a = %d, b = %d, c = %d, d = %d", a, b, c, d);
-  printf("a + b = %d\n", sum);
-  printf("a - b = %d\n", sub);
+  // printf("a + b = %d\n", sum);
+  // printf("a - b = %d\n", sub);
+
+  double PI = 3.14159;
+  double n = 10.3653443156;
+
+  printf("PI = %lf\n", PI);
+  printf("n = %.7lf\n", n);
 }
 
 // Note
