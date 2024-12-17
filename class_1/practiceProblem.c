@@ -2,16 +2,12 @@
 
 int main()
 {
-  long long N, M;
 
-  scanf("%lld %lld", &N, &M);
+  int x = 10;
 
-  int lastDigitN = N % 10;
-  int lastDigitM = M % 10;
+  // scanf("%d", &x);
 
-  int sum = lastDigitN + lastDigitM;
+  x = x*x*x;
 
-  printf("%d\n", sum);
-
-  return 0;
+  printf("%d\n", x);
 }
