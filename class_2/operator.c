@@ -23,7 +23,7 @@ int main()
 
     // printf("Difference  =  %d", X);
 
-    int x, y;
+    // int x, y;
 
     // Read input
     // scanf("%d %d", &x, &y);
@@ -36,25 +36,24 @@ int main()
     // printf("%d * %d = %d\n", x, y, x * y);
     // printf("%d - %d = %d\n", x, y, x - y);
 
-    // return 0;
-       int N;
-    int years, months, days;
+    //    int N;
+    // int years, months, days;
 
     // Read the input
     // scanf("%d", &N);
 
-    N = 365;
+    // N = 365;
 
     // Calculate years, months, and remaining days
-    years = N / 365;
-    N %= 365;
-    months = N / 30;
-    days = N % 30;
+    // years = N / 365;
+    // N %= 365;
+    // months = N / 30;
+    // days = N % 30;
 
-    // Print the result
-    printf("%d years\n", years);
-    printf("%d months\n", months);
-    printf("%d days\n", days);
+    // // Print the result
+    // printf("%d years\n", years);
+    // printf("%d months\n", months);
+    // printf("%d days\n", days);
 
-    return 0;
+    // return 0;
 }
